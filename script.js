@@ -7,5 +7,5 @@ function getCookie()
 function setCookie()
 {
     document.cookie ="username=ABCD;expires=Thu, 14 July 2022 12:00:00 UTC; path=/"
-	console.log("Done");
+    console.log("Done");
 }
