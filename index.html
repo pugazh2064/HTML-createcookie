@@ -1,5 +1,4 @@
 <html>
-  <script src = "./script.js" type="text/javascript"></script>
   <body  onload="setCookie()">
 	<form>
 	  Name: <input type="text" name="name"><br>
@@ -7,4 +6,16 @@
 	  <button onclick="getCookie()">Submit</button> 
 	</form>
   </body>
+  <script>
+    function getcookie()
+    {
+        let x = document.cookie;
+        alert(x);
+    }
+    function setcookie()
+    {
+	console.log("Script Loaded")
+        document.cookie ="username=ABCD;expires=Thu, 14 July 2022 12:00:00 UTC; path=/"
+    }
+</script>
 </html>
